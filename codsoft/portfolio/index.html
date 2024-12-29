@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="nav-bar">
+          <div class="nav-items"><a href="#home">HOME</a></div>
+          <div class="nav-items"><a href="#skill">SKILLS</a></div>
+          <div class="nav-items"><a href="#project">PROJECTS</a></div>
+          <div class="nav-items"><a href="#service">SERVICES</a></div>
+          <div class="nav-items"><a href="#contact">CONTACTS</a></div>
+        </div>
+        <div class="intro" id="home">
+          Hi , I'm <span class="purple">Raja Satyam</span>
+          <div>and I am a passionate</div>
+          <!-- <div>Web Developer</div> -->
+          <span id="element"></span>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="skills" id="skill">
+        <h2>SKILLS</h2>
+        <div class="skill-grid">
+          <div class="skill-item"><img src="html.png" alt="" />HTML</div>
+          <div class="skill-item"><img src="css-3.png" alt="" />CSS</div>
+          <div class="skill-item"><img src="developer.png" alt="" />JS</div>
+          <div class="skill-item"><img src="physics.png" alt="" />REACT</div>
+          <div class="skill-item">
+            <img src="python (1).png" alt="" />PYTHON
+          </div>
+        </div>
+      </div>
+
+      <div class="project" id="project">
+        <h2>Projects</h2>
+        <div class="card-box">
+          <div class="card">
+            <div class="card-image">
+              <img src="landing.png" alt="Project Thumbnail" />
+            </div>
+            <div class="card-content">
+              <h3 class="card-title">Finance web page</h3>
+              <p class="card-description">
+                A brief description of the project goes here. Highlight its
+                features and purpose.
+              </p>
+              <a href="#" class="card-button">View Project</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img src="portfolio.png" alt="Project Thumbnail" />
+            </div>
+            <div class="card-content">
+              <h3 class="card-title">Portfolio</h3>
+              <p class="card-description">
+                A brief description of the project goes here. Highlight its
+                features and purpose.
+              </p>
+              <a href="#" class="card-button">View Project</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img src="simons.png" alt="Project Thumbnail" />
+            </div>
+            <div class="card-content">
+              <h3 class="card-title">Siomons game</h3>
+              <p class="card-description">
+                A brief description of the project goes here. Highlight its
+                features and purpose.
+              </p>
+              <a href="#" class="card-button">View Project</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img src="ccflip.png" alt="Project Thumbnail" />
+            </div>
+            <div class="card-content">
+              <h3 class="card-title">Credit card flip design</h3>
+              <p class="card-description">
+                A brief description of the project goes here. Highlight its
+                features and purpose.
+              </p>
+              <a href="#" class="card-button">View Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="services" id="service">
+        <h2>SERVICES</h2>
+        <div class="service">
+          <div class="serve">
+            <img src="html (1).png" alt="" />
+            <p>
+              <span class="span">WEB DEVELOPMENT</span><br />Building responsive
+              and <br />
+              modern websites
+            </p>
+          </div>
+          <div class="serve">
+            <img src="paintbrush.png" alt="" />
+            <p>
+              <span class="span">UI/UX DESIGN</span><br />Creating intuitive and
+              beautiful <br />
+              user interfaces
+            </p>
+          </div>
+          <div class="serve">
+            <img src="graphic-design.png" alt="" />
+            <p>
+              <span class="span">WEB DESIGN</span><br />Crafting beautiful and
+              functional web experiences
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer id="footer">
+      <div class="fdiv">
+        <h4>About</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus,
+          eos autem soluta aliquid cupiditate enim.
+        </p>
+      </div>
+      <div class="fdiv">
+        <h4>Links</h4>
+        <ul style="list-style: none">
+          <li>home</li>
+          <li>About</li>
+          <li>services</li>
+          <li>portfolio</li>
+          <li>contact</li>
+        </ul>
+      </div>
+      <div class="fdiv">
+        <h4>Services</h4>
+        <ul style="list-style: none">
+          <li>Web design</li>
+          <li>Web development</li>
+          <li>mini project</li>
+          <li>Online courses</li>
+          <li>Youtube courses</li>
+        </ul>
+      </div>
+      <div class="fdiv" id="contact">
+        <h4>Contacts</h4>
+        <span>rajasatyam005@gmail.com</span>
+        <span>9334148848</span>
+      </div>
+    </footer>
+    <div class="rights">Copyrights @2024 |All rights reserved &copy;</div>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Developer", "Programmer"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>

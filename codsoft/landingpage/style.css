@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color :#151515 ;
+    color: white;
+}
+
+nav .nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+.nav .first h3{
+    padding-left: 100px;
+}
+.nav .two{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.front{
+    display: flex;
+    padding: 110px;
+    height: 562px;
+}
+.front .text{
+    width: 50%;
+}
+.text .welcome,.text span{
+    color: #CBFC01;
+}
+.front .front-button{
+    display: flex;
+    justify-content: space-evenly;
+}
+.front .button-text{
+    font-size: 16px;
+}
+.front .front-button img{
+    color: black;
+    width: 20px;
+}
+.text button{
+    margin: 50px 0px;
+    width: 150px;
+    height: 50px;
+    background-color: #CBFC01;
+}
+.front .text h1{
+    font-size: 72px;
+    font-weight: 900;
+}
+.front .pic{
+    position: relative;
+    width: 50%;
+    height: 562px;
+}
+.front .pic .image1,.front .pic .image2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.front .pic .image2{
+    height: 480px;
+    width: 650px;
+}
+.front .pic .image1{
+    height: 520px;
+    width: auto;
+    padding-left: 265px;
+}
+.partners{
+    width: 100%;
+    height: 180px;
+    background-color: #CBFC01;
+    display: flex;
+    align-items: center;
+}
+.partners .logos{
+    padding-left: 160px;
+}
+
+.benefit{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px;
+}
+.benefit h3{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.benefit .b1, .benefit h3 span{
+    color: #CBFC01;
+}
+
+.benefit .users{
+    display: flex;
+    justify-content: space-between;
+
+}
+.benefit .users{
+    font-size: 28px;
+    font-weight: 900;
+}
+.benefit .users p,span{
+    color: #CBFC01;
+}
+.benefit .users .u1{
+    font-size: 14px;
+    font-weight: 400;
+}
+.services{
+    width: fit-content;
+    height: 400px;
+    padding: 80px 60px;
+    display: flex;
+    justify-content: space-between;
+    gap: 280px;
+    margin: 30px;
+}
+.service-info .service,.service-info h2 span{
+    color: #CBFC01;
+}
+.service-info h2{
+    font-weight: 700;
+    font-size: 48px;
+}
+.service-info .service-button{
+    display: flex;
+    justify-content: space-evenly;
+}
+.service-info .button-text{
+    font-size: 16px;
+}
+.service-info .service-button img{
+    color: black;
+    width: 20px;
+}
+.service-info button{
+    margin: 50px 0px;
+    width: 150px;
+    height: 50px;
+    background-color: #CBFC01;
+}
+
+.service-info .service-text{
+    width: 250px;
+    height: 350px;
+    border: 1px solid #2E2E2E;
+}
+
+.services .service-img{
+    position: relative;
+    width: 580px;
+    height: 450px;
+    overflow: hidden;
+}
+.services img{
+    position: absolute;
+
+}
+
+.services .service-img .pic1{
+    z-index: 1;
+    opacity: 1.2;
+    top: 100px;
+}
+.services .pic1{
+    height: 250px;
+    width: 400px;
+}
+
+.services .pic2{
+    height: 430px;
+    width: 430px;
+    left: 100px;
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    margin: 30px 200px;
+    border: 1px solid #2E2E2E;
+}
+.boxes .box1 ,.boxes .box2 ,.boxes .box3{
+    height: 260px;
+    width: 300px;
+    padding: 50px;
+}
+.boxes .box2{
+    background-color: #2E2E2E;
+}
+
+.boxes h5{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.boxes p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.boxes span{
+    color: white;
+}
+
+.boxes .arrow{
+    display: flex;
+    gap: 15px;
+
+}
+
+.end-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #CBFC01;
+    margin: 80px;
+    padding: 40px;
+}
+.end-page .end-text{
+    color: black;
+    font-size: 70px;
+    font-weight: 700;
+}
+.end-page span{
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+.end-page .grow button{
+    height: 60px;
+    width: 200px;
+    background-color: black;
+    color: #CBFC01;
+    font-size: 18px;
+}
+
+.footer{
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+}
+.footer .heading{
+    font-size: 24px;
+    font-weight: 700;
+}
+.footer .about-us{
+    border-collapse: separate;
+    border-spacing: 80px 30px;
+}
+.footer .email{
+    height: 40px;
+    width: 360px;
+    display: flex;
+    gap: 0px;
+}
+.footer .inp{
+    border-style: none;
+    width: 300px;
+    height: 40px;
+}
+.footer .but{
+    border-style: none;
+    width: 150px;
+    height: 40px;
+    background-color: #CBFC01;
+    color: #151515;
+    font-size: 16px ;
+    font-weight: 700;
+}
+
+.line{
+    width: 100%;
+    height: 3px;
+    background-color: azure;
+    margin-top: 20px;
+}
+
+.copy-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+.copy-right .copy{
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFFB2 ;
+}
+.global{
+    background-color: #CBFC01;
+    /* width: 100%; */
+    background-image: url('Vector\ \(1\).png');
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    height: 500px;
+    gap: 50px;
+}
+
+.global .global-services {
+    color: #151515;
+}
+.global .global-services p{
+    font-weight: 600;
+    font-size: 20px;
+}
+.global .global-services h1{
+    font-size:72px ;
+    font-weight: 700;
+}
+.global .global-boxes{
+    display: flex;
+    justify-content: space-evenly;
+}
+.global .gbox1,.global .gbox2,.global .gbox3{
+    height: 220px;
+    width: 240px;
+    background-color: #151515;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 20px;
+    line-height: 22px;
+}
+
+/* .p{
+    display: flex;
+    width: 10rem;
+    align-items: center;
+    gap: 1.25rem;
+    background-color: aqua;
+    padding: 0px 18px;
+    line-height: 22px;
+}
+.p .pimg img{
+    border-radius: 50%;
+}
+.p .ptext span{
+    font-weight: 700;
+    font-size: 18px;
+    color: aliceblue;
+} */
