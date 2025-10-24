@@ -1,7 +1,7 @@
 # Codsoft_tasks
 Codsoft Tasks
 
-This repository contains a series of front-end development tasks completed as part of the Codsoft Internship Program. Each task focuses on building responsive, visually appealing, and functional web pages using HTML, CSS, and JavaScript.
+This repository contains a series of front-end development tasks completed as part of my Codsoft Internship Program. Each task focuses on building responsive, visually appealing, and functional web pages using HTML, CSS, and JavaScript.
 
 🧩 Technologies Used
 
@@ -10,22 +10,21 @@ HTML5
 CSS3 (Flexbox, Grid, Animations)
 
 JavaScript (DOM Manipulation, Event Handling)
-
+```
 📁 Project Structure
 Codsoft_tasks/
 │
-├── Task1/        # Landing Page / Portfolio
-├── Task2/        # Calculator / To-Do App
-├── Task3/        # Tribute Page / Temperature Converter
+├── Task1/        # Landing Page
+├── Task2/        # Calculator 
+├── Task3/        # Tribute Page 
 ├── assets/       # Images, icons, and other resources
 └── README.md
-
+```
 🚀 How to Run
 
 Clone the repository:
 
 git clone https://github.com/rajasatyam/Codsoft_tasks.git
-
 
 Open the folder for a specific task.
 
@@ -51,4 +50,4 @@ Mastered HTML semantic structure
 
 Built responsive layouts using CSS Flexbox & Grid
 
-Implemented interactive elements using vanilla JavaScrip
+Implemented interactive elements using vanilla JavaScript
